@@ -23,6 +23,7 @@
   <labelsColor xsi:type="core:ColorRef">
     <color>Style.FormTextColor</color>
   </labelsColor>
+  <labelsFont xsi:type="core:AutoFont"/>
   <transparentLabelsBkg>true</transparentLabelsBkg>
   <labelsBorder xsi:type="core:BorderDef">
     <style>Single</style>
@@ -63,12 +64,14 @@
   <chTxtColor xsi:type="core:ColorRef">
     <color>Style.FormTextColor</color>
   </chTxtColor>
+  <ttlFont xsi:type="core:AutoFont"/>
+  <legFont xsi:type="core:AutoFont"/>
+  <chFont xsi:type="core:AutoFont"/>
   <isShowScale>true</isShowScale>
   <isShowScaleVL>true</isShowScaleVL>
   <isShowSeriesScale>true</isShowSeriesScale>
   <isShowPointsScale>true</isShowPointsScale>
   <isShowValuesScale>true</isShowValuesScale>
-  <xLabelsOrientation>Auto</xLabelsOrientation>
   <scaleLine>
     <width>1</width>
     <style>Solid</style>
@@ -121,7 +124,6 @@
     <style>Single</style>
     <width>1</width>
   </border>
-  <dataSourceDescription></dataSourceDescription>
   <splineMode>SmoothCurve</splineMode>
   <splineStrain>95</splineStrain>
   <translucenceMode>Auto</translucenceMode>
@@ -152,6 +154,7 @@
   <pointsScale>
     <titleArea>
       <location>Auto</location>
+      <font xsi:type="core:AutoFont"/>
       <transparent>true</transparent>
       <border xsi:type="core:BorderDef">
         <width>1</width>
@@ -164,6 +167,7 @@
   <valuesScale>
     <titleArea>
       <location>Auto</location>
+      <font xsi:type="core:AutoFont"/>
       <transparent>true</transparent>
       <border xsi:type="core:BorderDef">
         <width>1</width>
@@ -176,6 +180,7 @@
   <seriesScale>
     <titleArea>
       <location>Auto</location>
+      <font xsi:type="core:AutoFont"/>
       <transparent>true</transparent>
       <border xsi:type="core:BorderDef">
         <width>1</width>
@@ -185,9 +190,6 @@
     </titleArea>
     <titlePlacement>SpecialArea</titlePlacement>
   </seriesScale>
-  <trendLinesArray>
-    <seriesId>1</seriesId>
-  </trendLinesArray>
   <colorPaletteDescription>
     <colorPalette>Auto</colorPalette>
     <gradientPaletteStartColor xsi:type="core:ColorDef"/>
@@ -202,4 +204,23 @@
   <pointsReferenceLines/>
   <valuesReferenceBands/>
   <pointsReferenceBands/>
+  <additionalValuesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </additionalValuesScale>
+  <additionalValuesAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </additionalValuesAxis>
 </chart:Chart>

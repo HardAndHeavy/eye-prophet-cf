@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Демо прогноз просмотра страницы wiki</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor._Демо_ПрогнозПросмотраСтраницыWiki.Form.Форма</defaultForm>
   <forms uuid="8adc2983-662d-46f4-ac21-db4cbc9d5db1">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

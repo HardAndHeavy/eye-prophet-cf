@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Демо прогнозирование</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor._Демо_ПрогнозПросмотраСтраницыWiki</content>

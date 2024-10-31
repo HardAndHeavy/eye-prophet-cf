@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Пророк</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule._Пророк</content>
   <content>CommonModule._ОбщегоНазначения</content>

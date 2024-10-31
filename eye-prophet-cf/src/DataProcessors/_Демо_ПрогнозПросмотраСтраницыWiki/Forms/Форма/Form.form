@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДиграммаПрогноза</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДиграммаПрогноза</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -123,6 +121,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
           <name>ОчиститьТаблДок</name>
@@ -152,6 +151,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -238,6 +238,7 @@
           <verticalScrollBar>ScrollAuto</verticalScrollBar>
           <horizontalScrollBar>ScrollAuto</horizontalScrollBar>
           <selectionShowMode>Always</selectionShowMode>
+          <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
           <edit>true</edit>
           <showGroups>true</showGroups>
           <enableStartDrag>true</enableStartDrag>
@@ -461,6 +462,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -519,7 +521,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -554,6 +556,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -571,6 +574,7 @@
     <name>ПередЗагрузкойДанныхИзНастроекНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -763,7 +767,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗаполнитьТестовымиДанными</name>
+        <name>Команда1</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

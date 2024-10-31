@@ -1,2 +1,2 @@
 # eye-prophet-cf
-Конфигурация 1с для работы с https://github.com/HardAndHeavy/eye-prophet
+Конфигурация 1С для работы с [eye-prophet](https://github.com/HardAndHeavy/eye-prophet).

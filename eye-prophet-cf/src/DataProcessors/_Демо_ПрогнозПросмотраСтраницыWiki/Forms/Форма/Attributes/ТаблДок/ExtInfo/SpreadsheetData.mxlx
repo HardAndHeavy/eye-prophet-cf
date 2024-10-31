@@ -3,9 +3,12 @@
 	<columns>
 		<size>0</size>
 	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<viewSettings>
-		<showNamedRowsAndColumns>false</showNamedRowsAndColumns>
-		<showNamedRowsAndColumnsText>false</showNamedRowsAndColumnsText>
-	</viewSettings>
+	<vgRows>0</vgRows>
 </document>
